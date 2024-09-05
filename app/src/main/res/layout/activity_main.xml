@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?android:attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="5dp">
+
+    <Button
+        android:id="@+id/open_browser_buttonTp"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:text="@string/button_text1"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/open_browser_buttonVmP"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:text="@string/button_text2"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/open_browser_button"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:text="@string/button_text0"
+        android:textColor="#000000" />
+
+</LinearLayout>

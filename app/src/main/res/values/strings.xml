@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Open Windows Test</string>
+    <string name="label_text1">Plataforma digital de Seguros</string>
+    <string name="button_text0">Home</string>
+    <string name="button_text1">Tarjeta Protegida</string>
+    <string name="button_text2">Vive más Protegido</string>
+</resources>
