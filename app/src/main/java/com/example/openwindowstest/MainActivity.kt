@@ -30,9 +30,10 @@ class MainActivity : AppCompatActivity() {
         val urlBaseStage = "https://serviciositaucompra.alwayson.cl/"
         val urlDetalle = "detalle-seguro/"
         val urlParam = "?param1="
-        val urlBaseTokenizada = urlBaseDev.plus(urlParam).plus((0..10000000).random())
-        val urlTp = urlBaseDev.plus(urlDetalle).plus(35).plus(urlParam).plus((0..1000000).random())
+        val urlBaseTokenizada = urlBaseStage.plus(urlParam).plus((0..10000000).random())
+        val urlTp = urlBaseStage.plus(urlDetalle).plus(35).plus(urlParam).plus((0..1000000).random())
         val urlVmP = urlBaseStage.plus(urlDetalle).plus(39).plus(urlParam).plus((0..1000000).random()).plus("&source=APPITAU&param2=MQ==")
+        val urlPosventa = urlBaseStage.plus("aftersales").plus(urlParam).plus((0..1000000).random()).plus("&source=APPITAU")
 
         createButton(R.id.open_browser_buttonTp, urlTp)
         Log.d("Status", urlTp)
@@ -40,6 +41,8 @@ class MainActivity : AppCompatActivity() {
         Log.d("Status", urlVmP)
         createButton(R.id.open_browser_button, urlBaseTokenizada)
         Log.d("Status", urlBaseTokenizada)
+        createButton(R.id.open_browser_buttonPosventa, urlPosventa)
+        Log.d("Status", urlPosventa)
     }
 
     private fun createButton(buttonId: Int, urlTokenizada: String) {
