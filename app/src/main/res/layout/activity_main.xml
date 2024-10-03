@@ -47,4 +47,14 @@
         android:text="@string/button_text3"
         android:textColor="#000000" />
 
+    <Button
+        android:id="@+id/open_browser_buttonPosventaProd"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00FFFFFF"
+        android:text="@string/button_text4"
+        android:textColor="#000000" />
+
 </LinearLayout>
